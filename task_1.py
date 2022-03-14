@@ -22,4 +22,4 @@ for row in range(6):
         else:
             sumcount += 2
             print(sumcount, end='\t')
-    print('\n')
+    print('')

@@ -13,3 +13,15 @@ print('Задача 3. Рамка')
 # |                 |
 # |                 |
 # |_ _ _ _ _ _ _ _ _|
+
+width = int(input('Введите ширину рамки: '))
+height = int(input('Введите высоту рамки: '))
+
+for row in range(1, height + 1):
+    print('|',end='')
+    for col in range(1, width + 1):
+        if row == 1 or row == height:
+            print('-', end='')
+        else:
+            print(' ', end='')
+    print('|')

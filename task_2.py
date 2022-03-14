@@ -9,3 +9,10 @@ print('Задача 2. Лестница')
 # 3 3 3
 # 4 4 4 4
 # 5 5 5 5 5
+
+number = int(input('Введите чило: '))
+
+for row in range(1, number + 1):
+    for col in range(1, row + 1):
+        print(row, end=' ')
+    print()
